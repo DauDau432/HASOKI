@@ -952,10 +952,10 @@ def title():
     stdout.write("                   "+Fore.LIGHTGREEN_EX  +"╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝                \n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"        ══╦═════════════════════════════════╦══\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"╔═════════╩═════════════════════════════════╩═════════╗\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       PENTEST DOS MUTIL METHOD           "+Fore.LIGHTGREEN_EX  +"          ║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       ADDED NEW METHOD AND BYPASS    "+Fore.LIGHTGREEN_EX  +"              ║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Tele https://t.me/adfhjktewwyjqk   "+Fore.LIGHTGREEN_EX  +"          ║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Type [help] to see the Commands    "+Fore.LIGHTGREEN_EX +"          ║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       PHƯƠNG PHÁP PENTEST DOS MUTIL           "+Fore.LIGHTGREEN_EX  +"          ║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       ĐÃ THÊM PHƯƠNG THỨC VÀ BYPASS MỚI    "+Fore.LIGHTGREEN_EX  +"              ║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       DỊCH BỞI ĐẬU ĐẬU 5.0  "+Fore.LIGHTGREEN_EX  +"          ║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Nhập [help] để xem các Lệnh   "+Fore.LIGHTGREEN_EX +"          ║\n")
 
     stdout.write("             "+Fore.LIGHTGREEN_EX+"╚═════════════════════════════════════════════════════╝\n")
     stdout.write("\n")
@@ -1115,7 +1115,7 @@ def command():
             r = requests.get(f"https://api.hackertarget.com/subnetcalc/?q={target}")
             print(r.text)
         except:
-            print('An error has occurred while sending the request to the API!')                   
+            print('Đã xảy ra lỗi khi gửi yêu cầu tới API!')                   
             
     elif command == "dns":
         stdout.write(Fore.MAGENTA+" [>] "+Fore.WHITE+"IP/DOMAIN "+Fore.LIGHTGREEN_EX+": "+Fore.LIGHTGREEN_EX)
@@ -1124,7 +1124,7 @@ def command():
             r = requests.get(f"https://api.hackertarget.com/reversedns/?q={target}")
             print(r.text)
         except:
-            print('An error has occurred while sending the request to the API!')
+            print('Đã xảy ra lỗi khi gửi yêu cầu tới API!')
             
     elif command == "geoip":
         stdout.write(Fore.MAGENTA+" [>] "+Fore.WHITE+"IP "+Fore.LIGHTGREEN_EX+": "+Fore.LIGHTGREEN_EX)
@@ -1133,43 +1133,43 @@ def command():
             r = requests.get(f"https://api.hackertarget.com/geoip/?q={target}")
             print(r.text)
         except:
-            print('An error has occurred while sending the request to the API!')
+            print('Đã xảy ra lỗi khi gửi yêu cầu tới API!')
     else:
-        stdout.write(Fore.MAGENTA+" [>] "+Fore.WHITE+"Unknown command. type 'help' to see all commands.\n")  
+        stdout.write(Fore.MAGENTA+" [>] "+Fore.WHITE+"Lệnh không xác định. gõ 'help' để xem tất cả các lệnh.\n")  
 ##############################################################################################   
 
 def func():
     stdout.write(Fore.RED+" [\x1b[38;2;0;255;189mLAYER 7"+Fore.RED+"]\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"cfb        "+Fore.RED+": "+Fore.WHITE+"Bypass CF attack\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"pxcfb      "+Fore.RED+": "+Fore.WHITE+"Bypass CF attack with proxy\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"cfpro      "+Fore.RED+": "+Fore.WHITE+"Bypass CF UAM, CF CAPTCHA, CF BFM, CF JS (request)\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"cfsoc      "+Fore.RED+": "+Fore.WHITE+"Bypass CF UAM, CF CAPTCHA, CF BFM, CF JS (socket)\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"sky        "+Fore.RED+": "+Fore.WHITE+"HTTPS Flood and bypass for CF NoSec, DDoS Guard Free and vShield with sock5\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"stellar    "+Fore.RED+": "+Fore.WHITE+"HTTPS Sky method without proxies\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"bypass     "+Fore.RED+": "+Fore.WHITE+"HTTPS method without proxies  bypass Google Shield, VShield\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"raw        "+Fore.RED+": "+Fore.WHITE+"Request attack\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"post       "+Fore.RED+": "+Fore.WHITE+"Post Request attack\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"head       "+Fore.RED+": "+Fore.WHITE+"Head Request attack\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"soc        "+Fore.RED+": "+Fore.WHITE+"Socket attack\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"pxraw      "+Fore.RED+": "+Fore.WHITE+"Proxy Request attack\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"pxsoc      "+Fore.RED+": "+Fore.WHITE+"Proxy Socket attack\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"pxslow     "+Fore.RED+": "+Fore.WHITE+"Proxy Slowloris attack\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"http2     "+Fore.RED+": "+Fore.WHITE+"HTTP/2.0 Flood\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"cfb        "+Fore.RED+": "+Fore.WHITE+"Cuộc tấn công bỏ qua CF\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"pxcfb      "+Fore.RED+": "+Fore.WHITE+"Cuộc tấn công vượt qua CF với proxy\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"cfpro      "+Fore.RED+": "+Fore.WHITE+"Bỏ qua CF UAM, CF CAPTCHA, CF BFM, CF JS (yêu cầu)\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"cfsoc      "+Fore.RED+": "+Fore.WHITE+"Bỏ qua CF UAM, CF CAPTCHA, CF BFM, CF JS (socket)\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"sky        "+Fore.RED+": "+Fore.WHITE+"HTTPS Flood và bỏ qua cho CF NoSec, DDoS Guard Free và Shield bằng sock5\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"stellar    "+Fore.RED+": "+Fore.WHITE+"Phương pháp HTTPS Sky không có proxy\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"bypass     "+Fore.RED+": "+Fore.WHITE+"Phương pháp HTTPS không có proxy bỏ qua Google Shield, VShield\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"raw        "+Fore.RED+": "+Fore.WHITE+"Yêu cầu tấn công\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"post       "+Fore.RED+": "+Fore.WHITE+"Đăng yêu cầu tấn công\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"head       "+Fore.RED+": "+Fore.WHITE+"Head Request tấn công\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"soc        "+Fore.RED+": "+Fore.WHITE+"Tấn công Socket\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"pxraw      "+Fore.RED+": "+Fore.WHITE+"Cuộc tấn công Yêu cầu proxy\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"pxsoc      "+Fore.RED+": "+Fore.WHITE+"Cuộc tấn công Proxy Socket\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"pxslow     "+Fore.RED+": "+Fore.WHITE+"Cuộc tấn công Proxy Slowloris\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"http2     "+Fore.RED+": "+Fore.WHITE+"Lũ lụt HTTP / 2.0\n")
     stdout.write(Fore.RED+" \n["+Fore.WHITE+"LAYER 4"+Fore.RED+"]\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"tcp        "+Fore.RED+": "+Fore.WHITE+"Strong TCP attack (not supported)\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"udp        "+Fore.RED+": "+Fore.WHITE+"Strong UDP attack (not supported)\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"mine        "+Fore.RED+": "+Fore.WHITE+"minecraft disconnect login DOS (not supported)\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"vse        "+Fore.RED+": "+Fore.WHITE+"Send Valve Source Engine Protocol\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"tcp        "+Fore.RED+": "+Fore.WHITE+"Tấn công TCP mạnh (không được hỗ trợ)\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"udp        "+Fore.RED+": "+Fore.WHITE+"Tấn công UDP mạnh (không được hỗ trợ)\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"mine        "+Fore.RED+": "+Fore.WHITE+"minecraft ngắt kết nối đăng nhập DOS (không được hỗ trợ)\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"vse        "+Fore.RED+": "+Fore.WHITE+"Gửi giao thức công cụ nguồn van\n")
 
     stdout.write(Fore.RED+" \n[\x1b[38;2;0;255;189mTOOLS"+Fore.RED+"]\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"dns        "+Fore.RED+": "+Fore.WHITE+"Classic DNS Lookup\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"dns        "+Fore.RED+": "+Fore.WHITE+"Tra cứu DNS cổ điển\n")
     stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"geoip      "+Fore.RED+": "+Fore.WHITE+"Geo IP Address Lookup\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"subnet     "+Fore.RED+": "+Fore.WHITE+"Subnet IP Address Lookup\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"subnet     "+Fore.RED+": "+Fore.WHITE+"Tra cứu địa chỉ IP mạng con\n")
     
     stdout.write(Fore.RED+" \n[\x1b[38;2;0;255;189mOTHER"+Fore.RED+"]\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"clear/cls  "+Fore.RED+": "+Fore.WHITE+"Clear console\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"exit       "+Fore.RED+": "+Fore.WHITE+"Bye..\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"credit     "+Fore.RED+": "+Fore.WHITE+"Thanks for\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"clear/cls  "+Fore.RED+": "+Fore.WHITE+"Giao diện điều khiển rõ ràng\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"exit       "+Fore.RED+": "+Fore.WHITE+"Tạm biệt..\n")
+    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"credit     "+Fore.RED+": "+Fore.WHITE+"Cảm ơn vì\n")
 
 if __name__ == '__main__':
     clear()
