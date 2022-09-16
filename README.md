@@ -1,16 +1,16 @@
 <p align="center"><img src="https://www.linkpicture.com/q/12311_1.png" width="400px" height="150px" alt="ddos"></p>
-(DoS) Attack Penetration Testing
+(DoS) Kiểm tra thâm nhập tấn công
  <p>
  <img src="https://img.shields.io/github/stars/cutipu/HASOKI?color=%23DF0067&style=for-the-badge"/> &nbsp;
  <img src="https://img.shields.io/github/forks/cutipu/HASOKI?color=%239999FF&style=for-the-badge"/> &nbsp;
  <img src="https://img.shields.io/github/license/cutipu/HASOKI?color=%23E8E8E8&style=for-the-badge"/> &nbsp;
  
 </p>
- DDoS Attack Panel includes CloudFlare Bypass (UAM, CAPTCHA, BFM, etc..)<br/><br/>
- Don't attack any websites gov !<br/>
- All responsibilities and disadvantages of using this program is for the user.
+ DDoS Attack Panel bao gồm CloudFlare Bypass (UAM, CAPTCHA, BFM, etc..)<br/><br/>
+Không tấn công bất kỳ trang web nào <br/>
+Mọi trách nhiệm và bất lợi của việc sử dụng chương trình này là của người dùng.
  
-## Language</br>
+## Ngôn ngữ</br>
 
  <img src="https://img.shields.io/badge/Python-FFDD00?style=for-the-badge&logo=python&logoColor=blue"/></br>
 </div>
@@ -20,7 +20,7 @@
 
 ## HTTP/2 ATTACK
 ![hasoki](https://www.linkpicture.com/q/Untitled4_5.png)
-## Methods
+## Phương pháp
 
 ```sh
   [Layer 7]
@@ -51,20 +51,12 @@
  - Geoip      | Geo IP Address Lookup
  - Subnet     | Subnet IP Address Lookup
  
- - Next Update Attack Menu And L4 Methods (SOON...)
+ - Cập nhật tiếp theo Menu tấn công và phương thức L4 (SOON...)
 ```
 
-## Grouptelegram
-https://t.me/hackingcn
-
-## Usage
+## Cách sử dụng
 ```sh
-You must use Python 3.9 or higher.
-INSTALL: python setup.py install or python3 setup.py install
+Bạn phải sử dụng Python 3.9 hoặc cao hơn.
+TẢI VỀ: python setup.py install or python3 setup.py install
 ```
 
-## Contact Developer
-```sh
- Telegram: https://t.me/adfhjktewwyjqk
-```
-original : https://github.com/HyukIsBack/KARMA-DDoS
