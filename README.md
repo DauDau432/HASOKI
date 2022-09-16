@@ -55,8 +55,14 @@ Mọi trách nhiệm và bất lợi của việc sử dụng chương trình n�
 ```
 
 ## Cách sử dụng
-```sh
 Bạn phải sử dụng Python 3.9 hoặc cao hơn.
-TẢI VỀ: python setup.py install or python3 setup.py install
+
+- TẢI VỀ: 
+```
+python setup.py install 
+```
+***hoặc***
+```
+python3 setup.py install
 ```
 
