@@ -15,10 +15,10 @@ def countdown(t):
     while True:
         if (until - datetime.datetime.now()).total_seconds() > 0:
             stdout.flush()
-            stdout.write("\r "+Fore.MAGENTA+"[*]"+Fore.WHITE+" Attack status => " + str((until - datetime.datetime.now()).total_seconds()) + " sec left ")
+            stdout.write("\r "+Fore.MAGENTA+"[*]"+Fore.WHITE+" Trạng thái tấn công => " + str((until - datetime.datetime.now()).total_seconds()) + " giây còn lại ")
         else:
             stdout.flush()
-            stdout.write("\r "+Fore.MAGENTA+"[*]"+Fore.WHITE+" Attack Done !                                   \n")
+            stdout.write("\r "+Fore.MAGENTA+"[*]"+Fore.WHITE+" Tấn công xong !                                   \n")
             return
 #ua
 useragents=["Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1",
